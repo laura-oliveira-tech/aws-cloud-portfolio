@@ -20,11 +20,18 @@ Implantar um servidor web em uma instância Amazon EC2, configurando regras de s
 8. **Inicialização da instância**
 8. Implantação de um servidor web utilizando **Apache HTTP Server** através de script no User Data da instância.
 
+#### ARQUITETURA DA SOLUÇÃO
+_A solução consiste na implantação de um servidor web em uma instância do Amazon EC2 utilizando Amazon Linux.
+Durante a inicialização da instância, foi utilizado o recurso User Data para executar automaticamente um script de configuração que instala e inicia o Apache HTTP Server.
+O acesso ao servidor é controlado por um Security Group, permitindo tráfego HTTP e HTTPS para que a aplicação web possa ser acessada externamente pelo navegador.
+O armazenamento da instância é realizado através de um volume do Amazon EBS, garantindo persistência dos dados mesmo após reinicializações da máquina.
+Essa arquitetura permite disponibilizar uma aplicação web simples acessível pela internet utilizando uma instância EC2._
+
+![Arquitetura-EC2](diagrama/arquitetura-ec2.png)
+
 #### EVIDÊNCIA
 ![EC2 Running](prints/ec2-running.png)
 
-#### ARQUITETURA
-![Arquitetura-EC2](diagrama/arquitetura-ec2.png)
 
 #### SCRIPT
 ```bash
