@@ -7,6 +7,7 @@ Implantar um servidor web em uma instância Amazon EC2, configurando regras de s
 * Amazon EC2
 * Security Group
 * Amazon EBS
+* Apache HTTP Server
 
 #### IMPLEMENTAÇÃO
 1. Criação de uma instância **Amazon EC2** na AWS.
@@ -16,7 +17,8 @@ Implantar um servidor web em uma instância Amazon EC2, configurando regras de s
 5. Ativação da opção **Proteção contra término** para evitar exclusão acidental da instância.
 6. Inserção de um **script Bash** no campo User Data para automatizar a instalação e inicialização do servidor _web Apache_ durante o boot da instância.
 7. Redimensionar a instância: **Tipo de instância e volume EBS**
-8. **Inicialização da instância** e verificação do funcionamento do servidor acessando o IP público da EC2 pelo navegador.
+8. **Inicialização da instância**
+8. Implantação de um servidor web utilizando **Apache HTTP Server** através de script no User Data da instância.
 
 #### EVIDÊNCIA
 ![EC2 Running](prints/ec2-running.png)
