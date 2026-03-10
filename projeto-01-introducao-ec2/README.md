@@ -19,7 +19,7 @@ Amazon EBS
 8. **Inicialização da instância** e verificação do funcionamento do servidor acessando o IP público da EC2 pelo navegador.
 
 #### EVIDÊNCIA
-![EC2 Running](prints/ec2-instancia-running.png)
+![EC2 Running](prints/ec2-running.png)
 
 #### ARQUITETURA
 ![Arquitetura-EC2](diagrama/arquitetura-ec2.png)
