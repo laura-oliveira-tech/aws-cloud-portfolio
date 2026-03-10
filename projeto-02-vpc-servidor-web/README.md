@@ -23,7 +23,7 @@ Compreender na prática como funciona a comunicação entre recursos dentro de u
 8. Configuração de acesso SSH utilizando chave .ppk via PuTTY.
 9. Implantação de uma aplicação web acessível via navegador.
 
-#### ARQUITETURA
+#### ARQUITETURA DA SOLUÇÃO
 
 _A infraestrutura foi construída dentro de uma rede virtual isolada utilizando o serviço Amazon VPC.
 Dentro da VPC foi criada uma subnet pública, onde foi implantada uma instância do Amazon EC2 responsável por hospedar a aplicação web.
