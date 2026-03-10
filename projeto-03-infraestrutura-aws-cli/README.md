@@ -42,9 +42,6 @@ Formas de acesso utilizadas:
 
 Esses testes confirmaram a correta configuração da infraestrutura e a comunicação entre os recursos criados.
 
-#### EVIDÊNCIA
-![Acesso SSH](prints/terminal.png)
-
 #### ARQUITETURA DA SOLUÇÃO
 
 _A infraestrutura foi projetada utilizando uma VPC dedicada com subnet pública conectada à internet por meio de um Internet Gateway.
@@ -52,6 +49,11 @@ Uma instância EC2 com Amazon Linux foi implantada dentro da subnet e protegida 
 O acesso administrativo foi realizado via SSH utilizando PowerShell (OpenSSH) e PuTTY._
 
 ![Diagrama](diagrama/arquitetura.png)
+
+
+#### EVIDÊNCIA
+![Acesso SSH](prints/terminal.png)
+
 
 #### COMANDOS UTILIZADOS
 ```bash
