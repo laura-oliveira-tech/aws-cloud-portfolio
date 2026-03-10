@@ -21,11 +21,13 @@ Amazon EBS
 #### EVIDÊNCIA
 
 #### SCRIPT
-```#!/bin/bash
+```bash
+#!/bin/bash
 yum -y install httpd
 systemctl enable httpd
 systemctl start httpd
-echo '<html><h1>Hello From Your Web Server!</h1></html>' > /var/www/html/index.html```
+echo '<html><h1>Hello From Your Web Server!</h1></html>' > /var/www/html/index.html
+```
 
 #### APRENDIZADO
 _Este laboratório permitiu compreender o processo de criação e configuração de uma instância EC2, além da utilização do campo User Data para automatizar a instalação de serviços durante a inicialização da máquina. Também reforçou o papel dos Security Groups no controle de acesso ao servidor e a importância do Amazon EBS como armazenamento persistente da instância_
