@@ -23,6 +23,15 @@ Compreender na prática como funciona a comunicação entre recursos dentro de u
 8. Configuração de acesso SSH utilizando chave .ppk via PuTTY.
 9. Implantação de uma aplicação web acessível via navegador.
 
+#### ARQUITETURA
+
+_A infraestrutura foi construída dentro de uma rede virtual isolada utilizando o serviço Amazon VPC.
+Dentro da VPC foi criada uma subnet pública, onde foi implantada uma instância do Amazon EC2 responsável por hospedar a aplicação web.
+A conectividade com a internet é realizada por meio de um Internet Gateway, enquanto o roteamento do tráfego externo é controlado por uma Route Table associada à subnet pública.
+O acesso à instância é protegido por Security Groups, que definem as regras de segurança permitindo acesso SSH para administração do servidor e tráfego HTTP para acesso à aplicação web.
+A conexão administrativa foi realizada via SSH utilizando o cliente PuTTY com chave .ppk.
+Essa arquitetura demonstra a comunicação entre recursos dentro de uma VPC e o controle de acesso através das configurações de rede e segurança da AWS_
+
 #### EVIDÊNCIA
 _**Criando VPC**_
 ![Criando VPC](prints/criando-vpc.png)
