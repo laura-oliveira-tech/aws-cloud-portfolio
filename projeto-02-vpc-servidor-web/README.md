@@ -26,8 +26,10 @@ Compreender na prática como funciona a comunicação entre recursos dentro de u
 #### EVIDÊNCIA
 _**Criando VPC**_
 ![Criando VPC](prints/criando-vpc.png)
+
 _**Acesso SSH via PuTTY**_
 ![Acesso SSH](prints/ssh-putty.png)
+
 _**Servidor Web rodando**_
 ![Servidor Web rodando](prints/web-server.png)
 
