@@ -4,9 +4,9 @@
 Implantar um servidor web em uma instância Amazon EC2, configurando regras de segurança, automatizando a instalação do Apache via User Data e explorando o redimensionamento de recursos da instância e do volume EBS.
 
 #### SERVIÇOS UTILIZADOS
-Amazon EC2
-Security Group
-Amazon EBS
+* Amazon EC2
+* Security Group
+* Amazon EBS
 
 #### IMPLEMENTAÇÃO
 1. Criação de uma instância **Amazon EC2** na AWS.
