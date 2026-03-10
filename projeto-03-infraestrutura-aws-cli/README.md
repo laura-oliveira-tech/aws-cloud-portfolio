@@ -45,7 +45,12 @@ Esses testes confirmaram a correta configuração da infraestrutura e a comunica
 #### EVIDÊNCIA
 ![Acesso SSH](prints/terminal.png)
 
-#### ARQUITETURA
+#### ARQUITETURA DA SOLUÇÃO
+
+_A infraestrutura foi projetada utilizando uma VPC dedicada com subnet pública conectada à internet por meio de um Internet Gateway.
+Uma instância EC2 com Amazon Linux foi implantada dentro da subnet e protegida por um Security Group permitindo acesso SSH.
+O acesso administrativo foi realizado via SSH utilizando PowerShell (OpenSSH) e PuTTY._
+
 ![Diagrama](diagrama/arquitetura.png)
 
 #### COMANDOS UTILIZADOS
