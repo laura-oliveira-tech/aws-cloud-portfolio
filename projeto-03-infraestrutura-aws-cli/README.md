@@ -43,8 +43,10 @@ Formas de acesso utilizadas:
 Esses testes confirmaram a correta configuração da infraestrutura e a comunicação entre os recursos criados.
 
 #### EVIDÊNCIA
+![Acesso SSH](prints/terminal.png)
 
 #### ARQUITETURA
+![Diagrama](diagrama/arquitetura.png)
 
 #### COMANDOS UTILIZADOS
 ```bash
