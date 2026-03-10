@@ -24,7 +24,9 @@ Compreender na prática como funciona a comunicação entre recursos dentro de u
 9. Implantação de uma aplicação web acessível via navegador.
 
 #### EVIDÊNCIA
-
+![Criando VPC](prints/criando-vpc.png)
+![Acesso SSH](prints/ssh-putty.png)
+![Servidor Web rodando](prints/web-server.png)
 
 #### SCRIPT
 ```bash
