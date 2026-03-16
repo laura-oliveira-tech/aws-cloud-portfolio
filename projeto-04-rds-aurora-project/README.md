@@ -94,7 +94,7 @@ Foi criado um banco de dados no Amazon RDS utilizando a engine MySQL.
 
 _Após a criação foi copiado o endpoint para uso na aplicação web._
 
-10. Teste da Aplicação Web
+9. Teste da Aplicação Web
 A aplicação permite inserir registros contendo:
 * operador
 * ação
