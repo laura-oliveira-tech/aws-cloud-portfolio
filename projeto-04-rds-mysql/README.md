@@ -109,7 +109,7 @@ A instância EC2 foi acessada via SSH utilizando PuTTY.
 Após o acesso foi realizada conexão com o banco.
 
 ## EVIDÊNCIAS DE FUNCIONAMENTO
-### Banco de dados inicialmente sem registros**
+### Banco de dados inicialmente sem registros
 ![Banco vazio](prints/rds-banco-vazio.png)
 
 ### Registro criado via aplicação web (Console)
