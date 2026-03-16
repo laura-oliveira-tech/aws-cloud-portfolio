@@ -108,21 +108,7 @@ logs_de_acesso
 A instância EC2 foi acessada via SSH utilizando PuTTY.
 Após o acesso foi realizada conexão com o banco.
 
-## EVIDÊNCIAS DE FUNCIONAMENTO
-### Banco de dados inicialmente sem registros
-![Banco vazio](prints/rds-banco-vazio.png)
 
-### Registro criado via aplicação web (Console)
-![Registro via console](prints/rds-registro-console.png)
-
-### Inserção direta via CLI utilizando SSH na EC2
-![Registro via CLI](prints/registro-cli.png)
-
-### Validação final com três registros no banco
-![Validação final](prints/rds-validacao-3-registros.png)
-
-### Acesso via terminal e conexão com o RDS
-![Terminal CLI](prints/rds-cli-terminal.png)
 
 #### COMANDOS UTILIZADOS
 ```bash
