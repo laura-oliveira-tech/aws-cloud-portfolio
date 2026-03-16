@@ -37,6 +37,7 @@ _As subredes privadas foram criadas em zonas de disponibilidade diferentes para 
 
 3. Internet Gateway
 Foi criado um Internet Gateway e associado à VPC.
+
 _Essa configuração permite que recursos da subrede pública se comuniquem com a internet._
 
 4. Tabela de Rotas Pública
@@ -48,7 +49,9 @@ Foi adicionada a rota
 ```bash
 0.0.0.0/0 → Internet Gateway
 ```
+
 _Essa rota permite que qualquer tráfego externo seja direcionado para a internet._
+
 A subrede pública foi associada a essa tabela de rotas.
 Também foi ativada a atribuição automática de IP público.
 
@@ -76,6 +79,7 @@ Configurações realizadas:
 * instalação do Apache
 * instalação do PHP
 * criação de uma aplicação web para conexão com banco de dados
+  
 _A aplicação permite registrar logs de acesso no banco._
 
 7. Criação do Database Subnet Group
@@ -87,9 +91,10 @@ _Foram utilizadas as duas subredes privadas._
 
 8. Criação do Banco de Dados
 Foi criado um banco de dados no Amazon RDS utilizando a engine MySQL.
+
 _Após a criação foi copiado o endpoint para uso na aplicação web._
 
-9. Teste da Aplicação Web
+10. Teste da Aplicação Web
 A aplicação permite inserir registros contendo:
 * operador
 * ação
@@ -142,6 +147,7 @@ SELECT * FROM logs_de_acesso;
 ```
 
 **APRENDIZADO**
+
 Durante este projeto foram praticados conceitos importantes de arquitetura em nuvem:
 
 * criação de rede isolada utilizando VPC
